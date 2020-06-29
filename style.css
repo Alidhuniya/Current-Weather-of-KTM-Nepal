@@ -1,0 +1,21 @@
+body {
+    background-color: burlywood;
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+#show {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    padding-top: 1.3rem;
+    font-size: 1.7rem;
+    color: blueviolet;
+}

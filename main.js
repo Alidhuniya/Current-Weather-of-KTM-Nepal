@@ -9,7 +9,10 @@ const Weather = () => {
     .then((data) => {
 
         let output = "";
-
+        // let weather = "./weather.webp"
+        /* <img src=${data.current.weather_icons[0]} alt ="icon">
+        coming from api
+        */
         output += `
         <img src=${data.current.weather_icons[0]} alt ="icon">
         <h3>${data.current.weather_descriptions}</h3>
